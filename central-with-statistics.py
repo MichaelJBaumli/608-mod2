@@ -15,6 +15,14 @@ statistics.median
 #Variable
 grades = [85,93,45,89,85]
 
+#Count Finder
+count = len(grades)
+print("The count of the grades for the class is: ", count)
+
+#Sum Finder
+sumgrade = sum(grades)
+print("The sum of the grades for the class is: ",sumgrade)
+
 
 
 classgrade = statistics.mean(grades)

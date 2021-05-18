@@ -8,10 +8,21 @@
 #Variable
 grades = [85,93,45,89,85]
 
+#Count Finder
+count = len(grades)
+print("The count of the grades for the class is: ", count)
+
+#Sum Finder
+sumgrade = sum(grades)
+print("The sum of the grades for the class is: ",sumgrade)
+
+
+
 #Mean Finder
 classgrade = sum(grades)/len(grades)
 
-print("The mean grade for the class is:", classgrade)
+print("The mean grade for the class is: ", classgrade)
+
 
 #Median Finder
 sortedgrades = sorted(grades)
