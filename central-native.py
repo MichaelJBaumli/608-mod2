@@ -6,9 +6,6 @@
 
 
 #Variable
-from statistics import mode
-
-
 grades = [85,93,45,89,85]
 
 #Mean Finder
